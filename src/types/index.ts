@@ -1,21 +1,4 @@
-export type Appointment = {
-  id: string;
-  doctorId: string;
-  date: string;
-  time: string;
-  description: string;
-  status: string;
-};
+export { Appointment } from '../types/appointments';
+export { Doctor } from '../types/doctors';
+export { RootStackParamList } from '../types/navigation';
 
-export type Doctor = {
-  id: string;
-  name: string;
-  specialty: string;
-  image: string;
-};
-
-export type RootStackParamList = {
-  Home: undefined;
-  CreateAppointment: undefined;
-  Profile: undefined;
-}; 
