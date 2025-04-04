@@ -29,17 +29,6 @@ interface StyledProps {
     status: string;
 }
 
-const theme = {
-    colors: {
-        primary: '#007AFF',
-        secondary: '#6C757D',
-        background: '#FFFFFF',
-        text: '#333333FF',
-        success: '#3FA83FFF',
-        error: '#FF4545FF',
-        warning: '#FFC107',
-    },
-};
 
 const getStatusColor = (status: string) => {
     switch (status) {
