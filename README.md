@@ -11,7 +11,7 @@ Este é um aplicativo React Native para marcação de consultas médicas, desenv
 
 <div style="display: flex; justify-content: space-between;">
 
-  <div style="flex: 1; text-align: center;">
+  <div style="flex: 1; align-items: center;">
     <img src="https://github.com/user-attachments/assets/a9e6b1cc-aeea-453e-94ec-a4a17c12bbb8" height="400">
     <img src="https://github.com/user-attachments/assets/71681657-f199-4b24-bf8c-f2ed2049fb75" height="400">
     <img src="https://github.com/user-attachments/assets/98296645-1f37-4691-9da7-6571b656495a" height="400">
