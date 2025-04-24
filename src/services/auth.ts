@@ -8,42 +8,41 @@ const STORAGE_KEYS = {
     REGISTERED_USERS: '@MedicalApp:registeredUsers',
 };
 
-// Médicos mockados que podem fazer login
+
 const mockDoctors = [
     {
-        id: '1',
-        name: 'Dr. João Silva',
-        email: 'joao@example.com',
-        role: 'doctor' as const,
-        specialty: 'Cardiologia',
-        image: 'https://randomuser.me/api/portraits/men/1.jpg',
+      id: '1',
+      name: 'Dr. João Silva',
+      email: 'joao@example.com',
+      role: 'doctor' as const,
+      specialty: 'Cardiologia',
+      image: 'https://randomuser.me/api/portraits/men/21.jpg',
     },
     {
-        id: '2',
-        name: 'Dra. Maria Santos',
-        email: 'maria@example.com',
-        role: 'doctor' as const,
-        specialty: 'Pediatria',
-        image: 'https://randomuser.me/api/portraits/women/1.jpg',
+      id: '2',
+      name: 'Dra. Maria Santos',
+      email: 'maria@example.com',
+      role: 'doctor' as const,
+      specialty: 'Pediatria',
+      image: 'https://randomuser.me/api/portraits/women/22.jpg',
     },
     {
-        id: '3',
-        name: 'Dr. Pedro Oliveira',
-        email: 'pedro@example.com',
-        role: 'doctor' as const,
-        specialty: 'Ortopedia',
-        image: 'https://randomuser.me/api/portraits/men/2.jpg',
+      id: '3',
+      name: 'Dr. Pedro Oliveira',
+      email: 'pedro@example.com',
+      role: 'doctor' as const,
+      specialty: 'Ortopedia',
+      image: 'https://randomuser.me/api/portraits/men/23.jpg',
     },
-];
-
-// Admin mockado
-const mockAdmin = {
+  ];
+  
+  const mockAdmin = {
     id: 'admin',
     name: 'Administrador',
     email: 'admin@example.com',
     role: 'admin' as const,
     image: 'https://randomuser.me/api/portraits/men/3.jpg',
-};
+  };
 
 // Lista de usuários cadastrados (pacientes)
 let registeredUsers: User[] = [];
