@@ -16,7 +16,7 @@ const mockDoctors = [
       email: 'joao@example.com',
       role: 'doctor' as const,
       specialty: 'Cardiologia',
-      image: 'https://randomuser.me/api/portraits/men/21.jpg',
+      image: 'https://randomuser.me/api/portraits/men/1.jpg',
     },
     {
       id: '2',
@@ -24,7 +24,7 @@ const mockDoctors = [
       email: 'maria@example.com',
       role: 'doctor' as const,
       specialty: 'Pediatria',
-      image: 'https://randomuser.me/api/portraits/women/22.jpg',
+      image: 'https://randomuser.me/api/portraits/women/2.jpg',
     },
     {
       id: '3',
@@ -32,7 +32,7 @@ const mockDoctors = [
       email: 'pedro@example.com',
       role: 'doctor' as const,
       specialty: 'Ortopedia',
-      image: 'https://randomuser.me/api/portraits/men/23.jpg',
+      image: 'https://randomuser.me/api/portraits/men/30.jpg',
     },
   ];
   

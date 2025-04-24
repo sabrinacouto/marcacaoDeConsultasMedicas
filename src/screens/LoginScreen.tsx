@@ -7,6 +7,7 @@ import styled from 'styled-components/native';
 import { useAuth } from '../contexts/AuthContext';
 import theme from '../styles/theme';
 import { RootStackParamList } from '../types/navigation';
+import Icon from 'react-native-vector-icons/MaterialIcons'; 
 
 type LoginScreenProps = {
     navigation: NativeStackNavigationProp<RootStackParamList, 'Login'>;
@@ -43,6 +44,7 @@ const LoginScreen: React.FC = () => {
                 autoCapitalize="none"
                 keyboardType="email-address"
                 containerStyle={styles.input}
+                leftIcon={<Icon name="email" size={20} color={theme.colors.text} style={{ marginRight: 10 }}/>} 
             />
 
             <Input
@@ -51,6 +53,7 @@ const LoginScreen: React.FC = () => {
                 onChangeText={setPassword}
                 secureTextEntry
                 containerStyle={styles.input}
+                leftIcon={<Icon name="lock" size={20} color={theme.colors.text} style={{ marginRight: 10 }} />} 
             />
 
             {error ? <ErrorText>{error}</ErrorText> : null}
@@ -135,4 +138,4 @@ const ErrorText = styled.Text`
   margin-bottom: 10px;
 `;
 
-export default LoginScreen; 
+export default LoginScreen;
