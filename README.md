@@ -3,9 +3,9 @@
 Este é um aplicativo React Native para marcação de consultas médicas, desenvolvido como parte do curso de Desenvolvimento Mobile da FIAP.
 
 ## Participantes
-Kevin Nobre - 552590
-Lucas Basto - 553771
-Sabrina Couto - 552728
+ * Kevin Nobre - 552590
+ * Lucas Basto - 553771
+ * Sabrina Couto - 552728
 
 ## Funcionalidades Implementadas
 
